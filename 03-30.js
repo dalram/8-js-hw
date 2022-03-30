@@ -178,3 +178,41 @@ if (kauliukas % 2 === 0) {
 // 8 funckija
 
 // 9 task
+let metai = 1801;
+const pirmosiosOlimpines = 1896;
+if (metai % 4 === 0) {
+    n = ((metai - pirmosiosOlimpines) / 4) + 1;
+    console.log(n);
+} else if (metai % 4 !== 0) {
+    console.log('Metai neolimpiniai');
+}
+// } else if (metai < 1896) {
+//     console.log('Olimpines dar nevyko');
+// }
+
+// teisingas
+
+if (metai < 1896) {
+    console.log('Olimpines dar nevyko');
+} else if (metai % 4 === 0) {
+    n = ((metai - pirmosiosOlimpines) / 4) + 1;
+    console.log(n);    
+} else {
+    console.log('Metai neolimpiniai');
+}
+
+// 9 funkcija
+
+// 10 task
+let v1 = 8;
+let m1 = 29;
+let m2 = 23;
+let v = 9;
+let m = 5;
+if (v1 * 60 + m1 + m2 <= v*60 + m) {
+    console.log('Petras i pamokas neveluos');
+} else {
+    console.log('Petras i pamokas paveluos');
+}
+// 10 funkcija
+    
