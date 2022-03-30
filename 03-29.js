@@ -156,37 +156,37 @@ if (pirmasSarasas[0].length >= pirmasSarasas[3].length) {
 // Ciklas for ir jo panaudojimas
 // task 1a
 let forSuma = 0;
-for (let i = 0; i <=0; i++) {
+for (let i = 0; i <= 0; i++) {
     forSuma + i;
 }
 console.log(forSuma);
 // task 1b
 forSuma = 0;
-for (let i = 0; i <=4; i++) {
+for (let i = 0; i <= 4; i++) {
     forSuma += i;
 }
 console.log(forSuma);
 // task 1c
 forSuma = 0;
-for (let i = 0; i <=100; i++) {
+for (let i = 0; i <= 100; i++) {
     forSuma += i;
 }
 console.log(forSuma);
 // task 1d
 forSuma = 0;
-for (let i = 574; i <=815; i++) {
+for (let i = 574; i <= 815; i++) {
     forSuma += i;
 }
 console.log(forSuma);
 // task 1e
 forSuma = 0;
-for (let i = -50; i <=50; i++) {
+for (let i = -50; i <= 50; i++) {
     forSuma += i;
 }
 console.log(forSuma);
 // task 1f
 forSuma = 0;
-for (let i = -70; i <=30; i++) {
+for (let i = -70; i <= 30; i++) {
     forSuma += i;
 }
 console.log(forSuma);
@@ -198,7 +198,7 @@ function reverse(str) {
     }
     return reversed;
 }
-console.log(reverse('abcdef'));
+console.log(reverse('crossfit'));
 
 function wordLength(string) {
     return string.length;
