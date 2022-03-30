@@ -215,4 +215,13 @@ if (v1 * 60 + m1 + m2 <= v*60 + m) {
     console.log('Petras i pamokas paveluos');
 }
 // 10 funkcija
-    
+function petroKelione(val1, min1, min2, val, min) {
+    let kelVal = val1 * 60;
+    let pamVal = val * 60;
+    if (kelVal + min1 + min2 <= pamVal + min) {
+        console.log('Petras i pamokas neveluos');
+    } else {
+        console.log('Petras i pamokas veluos');
+    }
+}
+petroKelione(8, 29, 23, 9, 5);
