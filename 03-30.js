@@ -74,13 +74,13 @@ if (sviesoforoSpalva === 1) {
 // sprendimas su funkcija
 function sviesoforas(n) {
     if (n === 1) {
-        console.log('Eikite per gatvę');
+        return  console.log('Eikite per gatvę');
     } else if (n === 2) {
-        console.log('Palaukite');
+        return console.log('Palaukite');
     } else if (n === 3) {
-        console.log('Draudziama eiti');
+        return console.log('Draudziama eiti');
     } else {
-        console.log('Reiksme nezinoma');
+        return console.log('Reiksme nezinoma');
     }
 }
 sviesoforas(2);
@@ -224,4 +224,4 @@ function petroKelione(val1, min1, min2, val, min) {
         console.log('Petras i pamokas veluos');
     }
 }
-petroKelione(8, 29, 23, 9, 5);
+petroKelione(5, 30, 91, 7, 0);
