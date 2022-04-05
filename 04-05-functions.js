@@ -30,13 +30,13 @@ function keliamiejiMetai(metai) {
     if (typeof metai !== 'number') {
         return 'Error, funckija priima tik skaicius'
     }
-    else if (metai % 4 === 0 && metai % 400 !== 100 && metai % 400 !== 200 && metai % 400 !== 300) {
+    if (metai % 4 === 0 && metai % 100 !== 0 || metai % 400 === 0) {
     return `ivesti ${metai} metai yra keliamieji`;
     } else {
         return 'Ivesti metai nera keliamieji';
     }
 }
-console.log(keliamiejiMetai(1500));
+console.log(keliamiejiMetai(400));
 
 // 4
 console.log('--------------');

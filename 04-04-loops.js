@@ -54,8 +54,18 @@ for (let i = 1; i <= metai; i++) {
 let dabartiniaiMetai = 2022;
 console.log('---------------');
 for (let i = 0; i <= dabartiniaiMetai; i++) {
-    // if (metai % 4 === 0 && metai % 400 > 0) {
+   
         if (i % 4 === 0 && i % 400 !== 100 && i % 400 !== 200 && i % 400 !== 300) {
+            console.log(i);
+        }
+};
+
+// 11
+let dabartiniai = 2022;
+console.log('---------------');
+for (let i = 0; i <= dabartiniai; i++) {
+
+        if (i % 4 === 0 && i % 100 !== 0 || i % 400 === 0) {
             console.log(i);
         }
 };
