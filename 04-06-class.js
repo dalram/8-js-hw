@@ -1,10 +1,10 @@
 class Dog {
-    constructor (name, type, color, eyes, legs, sound, food) {
+    constructor (name, type, color, eyes, sound, food) {
         this.name = name;
         this.type = type;
         this.color = color;
         this.eyes = eyes;
-        this.legs = legs;
+        this.legs = 4;
         this.sound = sound;
         this.food = food;
         this.sit = false;
@@ -41,3 +41,6 @@ dog1.soundOut("aw aw");
 dog1.sitOn();
 console.log(dog1);
 dog1.introduce();
+
+// zino paprastas elementas prie construktoriaus.
+// gali funkcinis elementas
