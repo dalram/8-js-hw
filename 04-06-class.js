@@ -44,3 +44,56 @@ dog1.introduce();
 
 // zino paprastas elementas prie construktoriaus.
 // gali funkcinis elementas
+
+//  Class cat
+
+class Cat {
+    constructor (name, type, color, eyes, sound, food) {
+        this.name = name;
+        this.type = type;
+        this.color = color;
+        this.eyes = eyes;
+        this.sound = sound;
+        this.food = food;
+        this.rest = false;
+        this.legs = 4;
+    }
+    resting() {
+        this.rest = true;
+        return console.log(`${this.name}: atsiguliau ilsetis`);
+    }
+    restingOut() {
+        this.rest = false;
+        return console.log(`${this.name}: atsistojau kazka veikti`);
+    }
+    soundOut(sound) {
+        if (typeof sound !== 'string') {
+            return console.log(`${this.name}: sio garso iskleisti negaliu`);
+        }
+        return console.log(`${this.name}: ${sound}`);
+    }
+    destroy(b) {
+        if (typeof b !== 'string') {
+            return console.log(`${this.name}: tai ne daiktas.`);
+        }
+        return console.log(`${this.name}: Miau, sudauziau ${b}`);
+    }
+    introduce() {
+        let mode;
+        if (this.rest === false) {
+            mode = 'Stoviu';
+        } else {
+            mode = 'Guliu';
+        }
+        return console.log(`Labas, as esu katinas ${this.name}.My color is ${this.color}. My eyes are ${this.eyes}. I have ${this.legs} legs. Right now I am ${mode}`);
+    }
+}
+
+const cat1 = new Cat('Rainis', 'rainys', 'pilkai juodas', 'zalios', 'miau miau', 'vistiena :)' );
+console.log(cat1);
+cat1.soundOut('miau');
+cat1.resting();
+console.log(cat1);
+cat1.restingOut();
+cat1.destroy('Puodeli');
+cat1.introduce();

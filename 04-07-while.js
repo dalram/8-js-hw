@@ -18,6 +18,7 @@ do {
 while (suma % 7 !== 0);
 console.log('========================');
 console.log('========================');
+
 //  3
 
 function knygosSkyriai(skyriai) {
@@ -77,3 +78,29 @@ function random57(){
     return console.log(`Prasisuko ${count} ciklu.`);
 }
 random57();
+console.log('========================');
+console.log('========================');
+suma = 0;
+while (suma === 0 || suma % 7 !== 0) {
+    suma += Math.ceil(Math.random() * 10);
+
+    
+}
+console.log(suma);
+
+// suma = 0;
+
+// while (suma === 0 || !(suma % 7 === 0)) {
+//     suma += Math.floor(Math.random() * 11);
+// }
+// console.log(suma);
+console.log('========================');
+console.log('========================');
+console.log('========================');
+console.log(Math.max(7, 5));
+console.log(Boolean(10 > 9));
+console.log('========================');
+console.log(1 == '1');
+
+for(let i = 1; i < 5; i++){
+    console.log(i);}
