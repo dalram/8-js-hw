@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "last": "nodemon 04-04-loops.js",
-    "dev": "nodemon 04-06-class.js",
+    "dev": "nodemon 04-11-arrays.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
